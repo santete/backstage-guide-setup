@@ -19,7 +19,7 @@ backend:
       database: backstage_db
 ```
 
-### 🌐 Sư dụng Docker Compose cho PostgreSQL (tùy chọn)
+### 🌐 Sử dụng Docker Compose cho PostgreSQL (tùy chọn)
 ```yaml
 db:
   image: postgres:13
