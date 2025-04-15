@@ -73,14 +73,6 @@ techdocs:
     type: 'local'
 ```
 
-### ✍️ backend/src/plugins/techdocs.ts:
-```ts
-import { createRouter } from '@backstage/plugin-techdocs-backend';
-export default async function createPlugin({ logger, config, discovery }) {
-  return await createRouter({ logger, config, discovery });
-}
-```
-
 > 📸 **Hình minh họạ:** Quy trình sinh TechDocs local
 
 ---
@@ -115,7 +107,7 @@ spec:
 catalog:
   locations:
     - type: url
-      target: https://gitlab.com/my-org/my-repo/blob/main/catalog-info.yaml
+      target: https://github.com/santete/catalog-repo/blob/master/catalog-info.yaml
 ```
 
 ---
@@ -133,7 +125,7 @@ builder.addEntityProvider(
 );
 ```
 
-> 🔹 Giúc Backstage phát hiện repo tự động dựa vào nhóm GitLab
+> 🔹 Giúp Backstage phát hiện repo tự động dựa vào nhóm GitLab
 
 ---
 
