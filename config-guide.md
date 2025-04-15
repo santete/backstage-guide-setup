@@ -59,8 +59,8 @@ GITLAB_TOKEN=your_token
 
 ### 📄 Cài package:
 ```bash
-yarn add --cwd packages/techdocs-container @techdocs/cli
-yarn add --cwd packages/backend @backstage/plugin-techdocs-backend
+yarn --cwd packages/backend add @techdocs/cli
+yarn --cwd packages/backend add @backstage/plugin-techdocs-backend
 ```
 
 ### 🔢 Sửa `app-config.yaml`
