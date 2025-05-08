@@ -36,6 +36,7 @@ npm install -g yarn
 yarn -v  # Nên >= 1.22
 
 yarn set version 4.4.1 #Backstage gợi ý version này cho yarn
+yarn add dotenv        #Plugin giúp yarn đọc được file .env trong backend
 ```
 
 ---
