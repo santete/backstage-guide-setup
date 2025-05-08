@@ -39,6 +39,11 @@ yarn set version 4.4.1 #Backstage gợi ý version này cho yarn
 yarn add dotenv        #Plugin giúp yarn đọc được file .env trong backend
 ```
 
+🔧 Nạp biến môi trường trong index.ts
+```bash
+import dotenv from 'dotenv';
+dotenv.config();
+```
 ---
 
 ## 🧱 Bước 3: Tạo ứng dụng Backstage
