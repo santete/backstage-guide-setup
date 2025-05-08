@@ -15,6 +15,7 @@
 | Git            | >= 2.0        |
 | Python         | >= 3.6 (chỉ Windows) |
 
+set NODE_OPTIONS=--no-node-snapshot nếu node>=20
 ---
 
 ## 🔧 Bước 1: Cài Node.js 18
