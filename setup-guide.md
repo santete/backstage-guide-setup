@@ -55,7 +55,8 @@ npx @backstage/create-app@latest
 
 ```bash
 cd my-portal
-yarn dev
+yarn dev      #Node 18
+yarn start    #Node 20
 ```
 
 - Truy cập: [http://localhost:3000](http://localhost:3000)
